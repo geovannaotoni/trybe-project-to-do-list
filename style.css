@@ -1,8 +1,9 @@
-* {
-  background-color: rgb(255 , 240 , 255);
+body {
+  background-color: rgb(206, 183, 206);
+  margin: 0;
 }
 
-main , p , ol , li {
+main , ol {
   font-size: 25px;
   background-color: white;
   border-radius: 30px;
@@ -10,16 +11,30 @@ main , p , ol , li {
   margin: 5px;
 }
 
+main {
+  padding: 30px;
+  margin: 0 50px;
+}
+
+main p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
 li {
-  width: fit-content;
+  margin: 5px;
 }
 
 h1 {
   text-align: center;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 .selected {
-  background-color: gray;
+  background-color: rgb(213, 163, 200);
 }
 
 .completed {
@@ -55,4 +70,28 @@ button {
 
 #salvar-tarefas {
   background-color: rgb(219 , 0 , 182);
+}
+
+/* footer p {
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: fit-content;
+} */
+
+footer {
+  background-color: rgb(188 , 0 , 221);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+}
+
+footer p {
+  /* margin: 0 auto;
+  width: fit-content; */
+  text-align: center;
+  font-weight: 700;
+  padding: 15px;
+  font-size: 18px;
 }
