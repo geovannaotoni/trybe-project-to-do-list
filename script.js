@@ -138,7 +138,4 @@ moveDownButton.addEventListener('click', moveDown);
 
 window.onload = () => {
   recoverTasks();
-  
-  //adicionei depois para remover a seleção ao atualizar a página
-  document.getElementsByClassName('selected')[0].classList.remove('selected');
 };
